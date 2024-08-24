@@ -35,7 +35,7 @@ const MessageSection = () => {
         console.log(resData);
 
         if (response.status === 200) {
-            
+
             console.log('Message sent.');
             toast.success('Message sent successfully!');
         }
@@ -45,15 +45,15 @@ const MessageSection = () => {
             toast.error('Message failed to send!');
         }
     }
-    
+
     return (
         <section id="contact" className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4">
             <div>
-                <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
+                <h5 className="text-xl font-bold text-white my-2">Let&apos;s Connect</h5>
                 <p className="text-[#ADB7BE] mb-4 max-w-md">
                     {" "}
-                    I'm currently looking for new opportunities, my inbox is always open.
-                    Whether you have a question or just want to say hi, I'll try my best
+                    I&apos;m currently looking for new opportunities, my inbox is always open.
+                    Whether you have a question or just want to say hi, I&apos;ll try my best
                     to get back to you!
                 </p>
                 <div className="socials flex flex-row gap-2 text-white mt-2">
@@ -97,12 +97,12 @@ const MessageSection = () => {
                             name="message"
                             id="message"
                             className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                            placeholder="Let's talk about..." 
-                            />
+                            placeholder="Let's talk about..."
+                        />
                     </div>
                     <button
-                    type="submit"
-                    className="bg-white hover:bg-transparent hover:border hover:text-white border text-black font-medium py-2.5 px-5 rounded-lg w-full">
+                        type="submit"
+                        className="bg-white hover:bg-transparent hover:border hover:text-white border text-black font-medium py-2.5 px-5 rounded-lg w-full">
                         Send Message
                     </button>
                 </form>

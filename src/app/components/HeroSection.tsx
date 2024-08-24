@@ -12,7 +12,7 @@ const HeroSection = () => {
                 <div className="col-span-7 place-self-center text-center sm:text-left mr-3">
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
                         <span className=" text-white mb-4 text-4xl to-sec lg:text-6xl font-extrabold">
-                            Hello, I'm{" "}
+                            Hello, I&apos;m{" "}
                         </span>
                         <br />
                         <TypeAnimation
@@ -33,8 +33,8 @@ const HeroSection = () => {
                     </p>
                     <div>
                         <Link
-                        href="https://docs.google.com/document/d/1hP64PtjwObSHvIFneG7VcPhf75pgHhdi9vjLF3Tfl6k/edit?usp=sharing"
-                        className="px-1 inline-block py-1 w-full sm:w-fit rounded-full hover:bg-transparent hover:text-white text-black bg-white">
+                            href="https://docs.google.com/document/d/1hP64PtjwObSHvIFneG7VcPhf75pgHhdi9vjLF3Tfl6k/edit?usp=sharing"
+                            className="px-1 inline-block py-1 w-full sm:w-fit rounded-full hover:bg-transparent hover:text-white text-black bg-white">
                             <span className="block bg-white hover:bg-transparent hover:border rounded-full px-5 py-2">Download CV</span>
                         </Link>
                     </div>
