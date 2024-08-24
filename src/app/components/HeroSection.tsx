@@ -33,7 +33,7 @@ const HeroSection = () => {
                     </p>
                     <div>
                         <Link
-                        href="/"
+                        href="https://docs.google.com/document/d/1hP64PtjwObSHvIFneG7VcPhf75pgHhdi9vjLF3Tfl6k/edit?usp=sharing"
                         className="px-1 inline-block py-1 w-full sm:w-fit rounded-full hover:bg-transparent hover:text-white text-black bg-white">
                             <span className="block bg-white hover:bg-transparent hover:border rounded-full px-5 py-2">Download CV</span>
                         </Link>
@@ -42,7 +42,7 @@ const HeroSection = () => {
                 <div className="col-span-5 flex justify-center items-center mt-4 lg:mt-0">
                     <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] aspect-square flex justify-center items-center">
                         <Image
-                            src="/images/hero-image.png"
+                            src="/images/hero.jpg"
                             alt="hero image"
                             width={500}
                             height={500}
